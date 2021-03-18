@@ -1,0 +1,48 @@
+version: "2.2"
+
+services:
+
+  cassandra-c01:
+    container_name: cassandra-resto1final
+    image: cassandra
+    ports: 
+      - 9047:9042
+    environment:
+    - CASSANDRA_CLUSTER_NAME=Restaurants
+    
+    volumes:
+    - ./data/cassandra-resto1final:/var/lib/cassandra
+ 
+      
+  cassandra-c02:
+    container_name: cassandra-resto2final
+    image: cassandra
+    ports: 
+      - 9048:9042
+    command: /bin/bash -c "sleep 30 && echo ' --Pausing to let system catch up ... -->' && /docker-entrypoint.sh cassandra -f"
+    links:
+      - cassandra-c01:seed
+    environment:
+      - CASSANDRA_SEEDS=seed
+      - CASSANDRA_CLUSTER_NAME=Restaurants
+    volumes:
+    - ./data/cassandra-resto2final:/var/lib/cassandra
+  fastapi:
+    image: api-restau
+    build:
+      # cela fait référence au Dockerfile implicitement, nous aurions pu mettre ./ ou .
+      context: .
+    container_name: fastapi
+    ports:
+      - 8004:8000
+    volumes:
+    - ./API:/API
+    #le fichier va se référer au volume du container, volume API .le fichier (exemple ./serveur:/api et dans uvicorn serveur.api (nom du volume suivi du nom du fichier))
+    command: uvicorn API.api:app --reload --workers 1 --host 0.0.0.0 --port 8000
+    depends_on:
+    - cassandra-c01
+    environment:
+    - ENVIRONMENT=dev
+    - TESTING=0
+
+ 
