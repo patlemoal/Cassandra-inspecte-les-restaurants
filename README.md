@@ -15,7 +15,7 @@ https://www.docker.com/products/docker-desktop
 
 ![image](docker.PNG)
 
-Les containers sont mis en place grâce au fichier ![docker-compose.yaml](docker-compose.yaml) qui est lié au docker file ![Dockerfile](dockerfile) via l'instruction build
+Les containers sont mis en place grâce au fichier ![docker-compose.yaml](docker-compose.yaml) qui est lié au ![Dockerfile](Dockerfile) via l'instruction build
 
 ## Le fichier api.py 
 
