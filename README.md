@@ -16,7 +16,7 @@ https://www.docker.com/products/docker-desktop
 ![image](docker.PNG)
 
 Les containers sont mis en place grâce au fichier ![docker-compose.yaml](docker-compose.yaml) qui est lié au ![Dockerfile](Dockerfile) via l'instruction build
-
+Les principales instructions sont dans le fichier ![principalescommandes.txt](principalescommandes.txt)
 ## Le fichier api.py 
 
 Nous avons créé une API pour accéder :
@@ -28,6 +28,7 @@ Nous avons créé une API pour accéder :
 
 ## Mise en place de la base de données
 
+Dans le répertoire resources, nous avons crée un fichier ![init.cql](init.cql) qui donne les principales instructions pour la création de la keyspace et des différentes tables. Il est relié au ![docker-compose.yaml](docker-compose.yaml)  
 le fichier ![principalescommandes.txt](principalescommandes.txt) résume les différentes actions à accomplir pour mettre en place la base de données dans le contenair via l'invite de commande.
 
 
