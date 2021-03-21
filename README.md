@@ -33,6 +33,7 @@ Dans le répertoire resources, nous avons crée un fichier ![init.cql](init.cql)
 
 Le fichier ![principalescommandes.txt](principalescommandes.txt) résume les différentes actions à accomplir pour mettre en place la base de données dans le contenair via l'invite de commande.
 
-
+![visuglobaleFastAPI.PNG](visuglobaleFastAPI.PNG)
 ![info_cuisine.PNG](info_cuisine.PNG)
+
 
