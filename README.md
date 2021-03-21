@@ -18,14 +18,6 @@ https://www.docker.com/products/docker-desktop
 Les containers sont mis en place grâce au fichier ![docker-compose.yaml](docker-compose.yaml) qui est lié au ![Dockerfile](Dockerfile) via l'instruction build
 Les principales instructions sont dans le fichier ![principalescommandes.txt](principalescommandes.txt) 
 
-## Le fichier api.py 
-
-Nous avons créé une API pour accéder :
-
-    aux infos d'un restaurant à partir de son id,
-    à la liste des noms de restaurants à partir du type de cuisine,
-    au nombre d'inspection d'un restaurant à partir de son id restaurant,
-    les noms des 10 premiers restaurants d'un grade donné.
 
 ## Mise en place de la base de données
 
@@ -37,8 +29,17 @@ cqlsh> source '/resources/init.cql';
 
 Le fichier ![principalescommandes.txt](principalescommandes.txt) résume les différentes actions à accomplir pour mettre en place la base de données dans le contenair via l'invite de commande.
 
-![visuglobaleFastAPI.PNG](visuglobaleFastAPI.PNG)
+## Le fichier api.py 
 
-![info_cuisine.PNG](info_cuisine.PNG)
+Nous avons créé une API pour accéder :
+
+    aux infos d'un restaurant à partir de son id,
+    à la liste des noms de restaurants à partir du type de cuisine,
+    au nombre d'inspection d'un restaurant à partir de son id restaurant,
+    les noms des 10 premiers restaurants d'un grade donné.
+
+![image](visuglobaleFastAPI.PNG)
+
+![image](info_cuisine.PNG)
 
 
