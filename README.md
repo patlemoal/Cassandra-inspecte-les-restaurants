@@ -41,6 +41,7 @@ Nous avons créé une API pour accéder :
 
 ![image](visuglobaleFastAPI.PNG)
 
+
 ![image](info_cuisine.PNG)
 
 
