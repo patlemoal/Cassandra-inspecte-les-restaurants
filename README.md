@@ -28,7 +28,7 @@ Nous avons créé une API pour accéder :
 
 le fichier https://github.com/patlemoal/Cassandra-inspecte-les-restaurants/blob/main/notes/principalescommandes.txt principales commandes.txt résume les différentes actions à accomplir
 
-!(principalescommandes.txt](principalescommandes.txt)
+![principalescommandes.txt](principalescommandes.txt)
 
 ## Manipulation à faire
 
