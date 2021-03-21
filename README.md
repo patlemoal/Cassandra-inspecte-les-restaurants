@@ -12,5 +12,5 @@ Notre jeu de données se compose de deux fichiers csv :
   
 https://www.docker.com/products/docker-desktop
 
-![image]![docker.png]
-(https://user-images.githubusercontent.com/73176528/111908254-d0d04f80-8a58-11eb-92c6-04eb161b9550.PNG)
+![image](docker.png)
+
