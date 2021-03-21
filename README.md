@@ -44,4 +44,4 @@ Nous avons créé une API pour accéder :
 
 ![image](info_cuisine.PNG)
 
-![image](visuglobaleFastAPI.PNG)
+![image](testapi/visuglobaleFastAPI.PNG)
