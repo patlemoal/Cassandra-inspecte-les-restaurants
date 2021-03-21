@@ -29,11 +29,16 @@ Nous avons créé une API pour accéder :
 
 ## Mise en place de la base de données
 
-Dans le répertoire resources, nous avons crée un fichier ![init.cql](init.cql) qui donne les principales instructions pour la création de la keyspace et des différentes tables. 
+Dans le répertoire resources, nous avons crée un fichier ![init.cql](init.cql) qui donne les principales instructions pour la création de la keyspace et des différentes tables de manière automatique. En une instruction notre keyspace et nos tables sont construites.
+``
+#copier les tables 
+cqlsh> source '/resources/init.cql';
+``
 
 Le fichier ![principalescommandes.txt](principalescommandes.txt) résume les différentes actions à accomplir pour mettre en place la base de données dans le contenair via l'invite de commande.
 
 ![visuglobaleFastAPI.PNG](visuglobaleFastAPI.PNG)
+
 ![info_cuisine.PNG](info_cuisine.PNG)
 
 
