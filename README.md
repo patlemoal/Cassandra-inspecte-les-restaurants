@@ -38,8 +38,8 @@ Nous avons créé une API pour accéder :
     au nombre d'inspection d'un restaurant à partir de son id restaurant,
     les noms des 10 premiers restaurants d'un grade donné.
 
-![image](visuglobaleFastAPI.PNG)
+! [image](visuglobaleFastAPI.PNG)
 
-![image](info_cuisine.PNG)
+! [image](info_cuisine.PNG)
 
 
