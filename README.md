@@ -5,8 +5,8 @@ objectif : Utiliser un Cluster Cassandra, monté sur Docker, pour stocker les do
 ```
 
 Notre jeu de données se compose de deux fichiers csv :
-  - restaurants.csv
-  - restaurants_inspections.csv.
+  - ![restaurants.csv](restaurants.csv)
+  - ![restaurants_inspections.csv](restaurants_inspections.csv)
   
 ## Mise en place de 3 containers :
 
@@ -15,8 +15,8 @@ https://www.docker.com/products/docker-desktop
 
 ![image](docker.PNG)
 
-Les containers sont mis en place grâce au fichier ![docker-compose.yaml](docker-compose.yaml) qui est lié au ![Dockerfile](Dockerfile) via l'instruction build
-Les principales instructions sont dans le fichier ![principalescommandes.txt](principalescommandes.txt)
+Les containers sont mis en place grâce au fichier ![docker-compose.yaml](docker-compose.yaml) qui est lié au !(Dockerfile) via l'instruction build
+Les principales instructions sont dans le fichier ![principalescommandes.txt](principalescommandes.txt) 
 ## Le fichier api.py 
 
 Nous avons créé une API pour accéder :
