@@ -8,12 +8,14 @@ Notre jeu de données se compose de deux fichiers csv :
   - restaurants.csv
   - restaurants_inspections.csv.
   
-## Mise en place de 2 containers :
-![image](docker.PNG)
-
+## Mise en place de 3 containers :
 
 Emplacement du logiciel
 https://www.docker.com/products/docker-desktop
+
+![image](docker.PNG)
+
+Les containers sont mis en place grâce au fichier ![docker-compose.yaml](docker-compose.yaml) qui est lié au docker file![Dockerfile](dockerfile) via l'instruction build
 
 ## Le fichier api.py 
 
@@ -26,11 +28,11 @@ Nous avons créé une API pour accéder :
 
 ## Mise en place de la base de données
 
-le fichier https://github.com/patlemoal/Cassandra-inspecte-les-restaurants/blob/main/notes/principalescommandes.txt principales commandes.txt résume les différentes actions à accomplir
+le fichiert ![principalescommandes.txt](principalescommandes.txt) résume les différentes actions à accomplir pour mettre en place la base de données dans le contenair via l'invite de commande.
 
-![principalescommandes.txt](principalescommandes.txt)
 
-## Manipulation à faire
+
+## Manipulations à faire
 
 Ouvrir le cmd se situer dans le dossier ou l'on souhaite travailer à l'aide de la commande
 
