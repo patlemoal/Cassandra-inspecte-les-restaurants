@@ -5,7 +5,7 @@ objectif : Utiliser un Cluster Cassandra, monté sur Docker, pour stocker les do
 ```
 
 Notre jeu de données se compose de deux fichiers csv :
-  - ![restaurants.csv](restaurants.csv)
+  - ![restaurants.csv]
   - ![restaurants_inspections.csv](restaurants_inspections.csv)
   
 ## Mise en place de 3 containers :
