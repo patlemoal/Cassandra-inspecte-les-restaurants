@@ -17,6 +17,7 @@ https://www.docker.com/products/docker-desktop
 
 Les containers sont mis en place grâce au fichier ![docker-compose.yaml](docker-compose.yaml) qui est lié au !(Dockerfile) via l'instruction build
 Les principales instructions sont dans le fichier ![principalescommandes.txt](principalescommandes.txt) 
+
 ## Le fichier api.py 
 
 Nous avons créé une API pour accéder :
@@ -33,14 +34,4 @@ le fichier ![principalescommandes.txt](principalescommandes.txt) résume les dif
 
 
 
-## Manipulations à faire
-
-Ouvrir le cmd se situer dans le dossier ou l'on souhaite travailer à l'aide de la commande
-
-    cd de l'invite de commande puis faire:
-    git clone https://github.com/LuigiBKL/api_cassandra
-
-Une fois les fichiers importés, -Extraire le fichier data.rar qui contient les données déjà préparées pour nos conteneurs puis faire 'docker-compose up -d' dans l'invite de commande
-
-Dans le cas où l'on souhaite changer de données il faudra modifier le fichier init et les fichiers que l'on soit souhaite utiliser pour l'insertion dans le cluster de cassandra avec la commande -'docker cp chemindudossieràcopier nomduconteneur:/'
 
