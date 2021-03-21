@@ -28,9 +28,9 @@ Nous avons créé une API pour accéder :
 
 ## Mise en place de la base de données
 
-le fichiert ![principalescommandes.txt](principalescommandes.txt) résume les différentes actions à accomplir pour mettre en place la base de données dans le contenair via l'invite de commande.
+le fichiert ![principalescommandes.txt] résume les différentes actions à accomplir pour mettre en place la base de données dans le contenair via l'invite de commande.
 
-
+principalescommandes.txt
 
 ## Manipulations à faire
 
